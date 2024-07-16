@@ -1,0 +1,30 @@
+
+.alpha_footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3e8dbb;
+}
+.alpha_footer img{
+    height: 100px;
+    bottom: 0;
+}
+.contacto_footer{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.contacto_footer button{
+    background-color: #3e8dbb;
+    border: none;
+}
+.contacto_footer img{
+    margin: 5px;
+    width: 48px;
+    height: 48px;
+}
+.texto_footer{
+    background-color: #3e8dbb;
+    text-align: center;
+    color: #f5f7f0;
+    font-size: 0.5rem;
+}

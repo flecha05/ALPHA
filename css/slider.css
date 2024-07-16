@@ -1,0 +1,27 @@
+.slider-frame {
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	animation: slide 20s linear infinite;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+/* Animación de deslizamiento */
+@keyframes slide {
+	0%, 100% { transform: translateX(0); }
+	100%, 0% { transform: translateX(0); }
+	50% { transform: translateX(-200%); }
+}

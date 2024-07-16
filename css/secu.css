@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: rgb(210, 208, 208);
+    height: auto;  
+}
+.productos-container h3{
+    color: #125376;
+    font-family: sans-serif;
+    margin: 1.2rem;
+}
+.container{
+    background-color: #f5f7f0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 2rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.descripcion-texto{
+    padding: 1rem;
+    opacity: 0; /* Inicialmente el texto estará invisible */
+    animation: fadeInAnimation 2.5s ease-in forwards; /* Animación de 2 segundos */
+    
+}
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0; /* Desde la opacidad 0 */
+    }
+    to {
+        opacity: 1; /* Hasta la opacidad 1 */
+    }
+}
+.slider-container {
+    position: relative;
+    width: 100%; /* Ancho del slider */
+    overflow: hidden;
+    margin: 0 auto; /* Centrar el slider horizontalmente */
+}
+
+/* Estilos CSS para la lista de imágenes */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Transición suave para el desplazamiento */
+}
+
+/* Estilos CSS para las imágenes */
+.slide {
+    height: 250px;
+    width: 200px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 1.2rem 0.5rem;
+    flex: 0 0 33.33%; /* Ancho de cada imagen */
+    max-width: 33.33%; /* Ancho máximo para que se ajusten a 3 imágenes */
+}
+
+/* Estilos CSS para los botones de navegación */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #125376;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}

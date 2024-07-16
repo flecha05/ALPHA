@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background-color: #ecede8;
+    
+}
+.about_alpha{
+    background-color: #f5f7f0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 25%;
+    text-align: center;
+    font-style: italic;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+.title_alpha{
+    color: #3e8dbb;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+.about_text{
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.about_text em{
+    color: #3e8dbb;
+    font-weight: 700;
+}
+.products_service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px 80px 20px;
+}
+.container{
+    display: flex;
+    background-color: rgb(210, 208, 208);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px 0px;
+    padding: 0px;
+    margin: 20px 0px;
+}
+.container-titulo{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding:30px;
+    text-align: center;
+    color: #3e8dbb;
+    background-color: #f5f7f0;
+    border-radius: 20px 0px ;
+}
+.container-descripcion{
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    
+}
+.sliderImg{
+    filter: opacity(0.7);
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion-texto{
+    padding: 0px 20px;
+}
+.verMas{
+    background-color: #3e8dbb;
+    border-radius: 10px;
+    padding: 5px 20px;
+    font-size: 1.4rem;
+}
+.verMas
+a:hover{
+   font-size: 1.7rem;
+   transition: 0.5s;
+}
+.verMas a{
+    text-decoration: none;
+    color: #f5f7f0;
+}
